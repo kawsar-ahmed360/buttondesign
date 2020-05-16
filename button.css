@@ -1,0 +1,164 @@
+body{
+
+	background-color: ;
+	padding: 10px;
+
+
+	
+}
+
+#buttonsp{
+
+	font-size:16px;
+    color:white;
+	background:black;
+	border:2px solid white;
+	border-radius:12px;
+	display:block;
+	
+	margin:5px;
+	float: right;
+
+}
+
+#button{
+	
+	font-size:20px;
+    color:white;
+	background:black;
+	border:2px solid red;
+	border-radius:12px;
+	display:block;
+	width:130px;
+	height:45px;
+	margin:5px;
+	float: right;
+	
+}
+#button a{
+	text-decoration:none;
+	color:white;
+	font-family:arial;
+	
+}
+
+
+.btn1{
+	position:relative;
+
+	
+}
+.btn1:before{
+	content:"";
+	position:absolute;
+	background:#F0F0F0;
+	left:0px;
+	top:0px;
+	width:100%;
+	bottom:0px;
+	height:0%;
+	transition:0.7s all ease;
+	border-radius:12px;
+	
+}
+
+
+.btn1:hover:before{
+    height:100%;
+	opacity:0.2;
+	
+}
+
+.btm{
+	position:relative;
+}
+.btm:before{
+	content:"";
+	position:absolute;
+	background:#F0F0F0;
+	left:0px;
+	top:0px;
+	bottom:0px;
+	height:100%;
+	width:0%;
+	transition:0.7s all ease;
+	border-radius:12px;
+}
+.btm:hover:before{
+	width:100%;
+		opacity:0.2;
+}
+
+/* extra button*/
+
+.BOTM{
+	position:relative;
+	
+}
+.BOTM:before{
+	content:"";
+	position:absolute;
+	background:white;
+	width:0%;
+	height:0%;
+	top:0.5px;
+	left:0px;
+	transition:1s all ease;
+	opacity:0.6;
+	border-radius:12px;
+	
+}
+.BOTM:hover:before{
+
+	border-radius:4px;
+	height:100%;
+	width:100%;
+	opacity:0.1;
+}
+
+.BOTM:after{
+	content:"";
+	position:absolute;
+	background:white;
+	width:0%;
+	height:0%;
+	right:0.5px;
+	top:0.5px;
+	left:100%;
+	transition:1s all ease;
+	border-radius:12px;
+	opacity:0.6;
+	
+}
+.BOTM:hover:after{
+   left:0%;
+	border-radius:4px;
+	height:100%;
+	width:100%;
+	opacity:0.1;
+}
+
+/* end of extra button*/
+
+
+
+.tuh{
+	position:relative;
+}
+.tuh:before{
+	content:"";
+    position:absolute;
+	background:white;
+	width:100%;
+	height:0%;
+	top:0px;
+	left:0px;
+	right:0px;
+	transition:1s all ease;
+	border-radius:7px;
+	
+}
+.tuh:hover:before{}
+
+  
+  
